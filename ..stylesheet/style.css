@@ -11,8 +11,9 @@ html, body{
     background-color: black;
 }
 body{
-    background: url('../img/bgimg4.png') no-repeat top center;
+    background: url('../img/bgimg2.jpg') top center;
     background-size: cover;
+    background-attachment: fixed;
 }
 main{
     position: relative;
@@ -24,14 +25,17 @@ section#phone{
     top: 50%;
     left: 50%;
     transform: translate( -50%, -50%);
-    height: 540px;
-    width: 245px;
+    height: 600px;
+    width: 275px;
     border-radius: 30px;
     background-color: blue;
-    background: url('../img/galaxys20.png') no-repeat;
-
+    background: blue url('../img/galaxys20.png') no-repeat;
 }
-.phone img{
-    max-height: 550px;
-    width: auto;
+iframe#tela{
+    position: relative;
+    top: 8px;
+    left: 6px;
+    width: 262px;
+    height: 579px;
+    border-radius: 25px;
 }
