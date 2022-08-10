@@ -1,1 +1,37 @@
-@metacharset "UTF-8";
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+body{
+    background: url('../img/bgimg4.png') no-repeat top center;
+    background-size: cover;
+}
+main{
+    position: relative;
+    height: 100vh;
+    }
+
+section#phone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    height: 540px;
+    width: 245px;
+    border-radius: 30px;
+    background-color: blue;
+    background: url('../img/galaxys20.png') no-repeat;
+
+}
+.phone img{
+    max-height: 550px;
+    width: auto;
+}
